@@ -1,0 +1,84 @@
+body {
+  background-color: $primer-background-dark !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primer-text-color-dark !important;
+}
+
+p {
+  color: $primer-text-color-dark !important;
+}
+.content {
+  .layer {
+    background-color: $second-background-dark !important;
+  }
+
+  #button-3 {
+    .knobs:before {
+      color: $primer-background-dark !important;
+      background-color: $grey-background-dark !important;
+    }
+
+    .checkbox:checked + .knobs:before {
+      color: $grey-background-dark !important;
+      background-color: $primer-background-dark !important;
+    }
+  }
+}
+.content {
+  .list {
+    background: rgba(0, 255, 123, 0.4) !important;
+    border: 1px solid rgba(0, 255, 123, 0.3) !important;
+  }
+}
+
+.wrap-weather {
+  background: rgba(0, 255, 123, 0.4) !important;
+  border: 1px solid rgba(0, 255, 123, 0.3) !important;
+}
+
+#now {
+  .place-wrap {
+    position: relative;
+  }
+
+  .info {
+    background-color: $second-background-dark !important;
+  }
+
+  .icon-compass {
+    fill: $grey-background-dark !important;
+  }
+
+  .compass {
+    border-color: $grey-background-dark !important;
+  }
+}
+
+@keyframes pulsation {
+  0% {
+    opacity: 0.2;
+    fill: rgba(0, 255, 123) !important;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  background-color: $second-background-dark !important;
+  color: $grey-background-dark !important;
+}
+
+#some {
+  .info {
+    background-color: $second-background-dark !important;
+  }
+}

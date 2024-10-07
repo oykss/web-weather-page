@@ -1,0 +1,18 @@
+header {
+  input {
+    background-color: $grey-background-dark !important;
+    color: $primer-background-dark !important;
+
+    &::placeholder {
+      color: $primer-background-dark !important;
+    }
+  }
+
+  .icon {
+    fill: $grey-background-dark !important;
+  }
+
+  form .icon {
+    fill: $primer-background-dark !important;
+  }
+}

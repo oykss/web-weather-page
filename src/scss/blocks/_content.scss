@@ -270,22 +270,24 @@
   overflow: hidden;
   height: 490px;
 }
+.swiper-button-next {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 520px;
+  right: 141.5px;
+}
+.swiper-button-prev {
+  position: absolute;
+  transform: rotate(90deg);
+  top: -30px;
+  left: 141.5px;
+}
 .swiper-button-next::after,
 .swiper-button-prev::after {
   position: absolute;
   background-color: #fff;
   padding: 8px;
   border-radius: 12px;
-}
-.swiper-button-next::after {
-  transform: rotate(90deg);
-  bottom: -280px;
-  right: 125px;
-}
-.swiper-button-prev::after {
-  transform: rotate(90deg);
-  top: -280px;
-  left: 125px;
 }
 #some {
   .info {

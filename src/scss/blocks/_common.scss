@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  transition: all 250ms ease-in-out;
 }
 
 h1,
@@ -19,18 +20,21 @@ h6 {
   color: $primer-text-color;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 p {
   color: $primer-text-color;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 a {
   text-decoration: none;
   font-style: normal;
   color: $primer-text-color;
+  transition: all 250ms ease-in-out;
 }
 
 ul,
@@ -38,6 +42,7 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 img {

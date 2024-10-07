@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  transition: all 250ms ease-in-out;
 }
 
 h1,
@@ -18,18 +19,21 @@ h6 {
   color: #373d43;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 p {
   color: #373d43;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 a {
   text-decoration: none;
   font-style: normal;
   color: #373d43;
+  transition: all 250ms ease-in-out;
 }
 
 ul,
@@ -37,6 +41,7 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: all 250ms ease-in-out;
 }
 
 img {
@@ -104,9 +109,12 @@ header input {
 }
 header input::-moz-placeholder {
   color: #00bfff;
+  -moz-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 header input::placeholder {
   color: #00bfff;
+  transition: all 250ms ease-in-out;
 }
 header button {
   cursor: pointer;
@@ -121,20 +129,21 @@ header button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 250ms ease-in-out;
 }
 header .icon {
   fill: #fff;
+  transition: all 250ms ease-in-out;
 }
 header .icon:hover {
   fill: #ffd700;
-  transition: all 250ms ease-in-out;
 }
 header form .icon {
   fill: #00bfff;
+  transition: all 250ms ease-in-out;
 }
 header form .icon:hover {
   fill: #ffd700;
-  transition: all 250ms ease-in-out;
 }
 header a {
   display: flex;
@@ -153,6 +162,7 @@ header a {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 250ms ease-in-out;
 }
 .content .color-mod-checkbox {
   display: block;
@@ -206,6 +216,7 @@ header a {
   background-color: #ebf7fc;
   transition: 0.3s ease all;
   z-index: 1;
+  transition: all 250ms ease-in-out;
 }
 .content .button {
   position: relative;
@@ -266,6 +277,7 @@ header a {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 250ms ease-in-out;
 }
 
 #now {
@@ -306,6 +318,7 @@ header a {
   padding: 20px;
   border-radius: 12px;
   background-color: #fff;
+  transition: all 250ms ease-in-out;
 }
 #now h1 {
   margin: 20px 0;
@@ -338,6 +351,7 @@ header a {
   display: flex;
   width: 18px;
   height: 18px;
+  transition: all 250ms ease-in-out;
 }
 #now .compass {
   display: flex;
@@ -348,6 +362,7 @@ header a {
   border: 1.5px solid #373d43;
   border-radius: 50%;
   transform: rotate(0deg);
+  transition: all 250ms ease-in-out;
   animation: aminArrow 1s infinite alternate;
 }
 
@@ -386,6 +401,7 @@ header a {
   transform: rotate(90deg);
   top: 520px;
   right: 141.5px;
+  transition: all 250ms ease-in-out;
 }
 
 .swiper-button-prev {
@@ -393,6 +409,7 @@ header a {
   transform: rotate(90deg);
   top: -30px;
   left: 141.5px;
+  transition: all 250ms ease-in-out;
 }
 
 .swiper-button-next::after,
@@ -401,6 +418,7 @@ header a {
   background-color: #fff;
   padding: 8px;
   border-radius: 12px;
+  transition: all 250ms ease-in-out;
 }
 
 #some .info {
@@ -411,6 +429,7 @@ header a {
   padding: 5px;
   border-radius: 12px;
   background-color: #fff;
+  transition: all 250ms ease-in-out;
 }
 #some .icon-type {
   width: 55px;

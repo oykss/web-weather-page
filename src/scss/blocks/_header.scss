@@ -30,6 +30,7 @@ header {
 
     &::placeholder {
       color: $primer-background;
+      transition: all 250ms ease-in-out;
     }
   }
 
@@ -46,23 +47,24 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 250ms ease-in-out;
   }
 
   .icon {
     fill: #fff;
+    transition: all 250ms ease-in-out;
 
     &:hover {
       fill: $yellow-color-effect;
-      transition: all 250ms ease-in-out;
     }
   }
 
   form .icon {
     fill: $primer-background;
+    transition: all 250ms ease-in-out;
 
     &:hover {
       fill: $yellow-color-effect;
-      transition: all 250ms ease-in-out;
     }
   }
 

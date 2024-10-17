@@ -1,0 +1,87 @@
+header input {
+  background-color: #00ff7b !important;
+  color: #000 !important;
+}
+header input::-moz-placeholder {
+  color: #000 !important;
+}
+header input::placeholder {
+  color: #000 !important;
+}
+header .icon {
+  fill: #00ff7b !important;
+}
+header form .icon {
+  fill: #000 !important;
+}
+
+body {
+  background-color: #000 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff !important;
+}
+
+p {
+  color: #fff !important;
+}
+
+.content .layer {
+  background-color: #212121 !important;
+}
+.content #button-3 .knobs:before {
+  color: #000 !important;
+  background-color: #00ff7b !important;
+}
+.content #button-3 .checkbox:checked + .knobs:before {
+  color: #00ff7b !important;
+  background-color: #000 !important;
+}
+
+.content .list {
+  background: rgba(0, 255, 123, 0.4) !important;
+  border: 1px solid rgba(0, 255, 123, 0.3) !important;
+}
+
+.wrap-weather {
+  background: rgba(0, 255, 123, 0.4) !important;
+  border: 1px solid rgba(0, 255, 123, 0.3) !important;
+}
+
+#now .place-wrap {
+  position: relative;
+}
+#now .info {
+  background-color: #212121 !important;
+}
+#now .icon-compass {
+  fill: #00ff7b !important;
+}
+#now .compass {
+  border-color: #00ff7b !important;
+}
+
+@keyframes pulsation {
+  0% {
+    opacity: 0.2;
+    fill: rgb(0, 255, 123) !important;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  background-color: #212121 !important;
+  color: #00ff7b !important;
+}
+
+#some .info {
+  background-color: #212121 !important;
+}/*# sourceMappingURL=style-dark.css.map */

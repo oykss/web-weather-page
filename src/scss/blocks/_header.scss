@@ -1,0 +1,75 @@
+header {
+  margin-top: 16px;
+
+  .container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      gap: 20px;
+    }
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: all 250ms ease-in-out;
+    padding: 0 50px 0 16px;
+    color: $primer-background;
+
+    &::placeholder {
+      color: $primer-background;
+      transition: all 250ms ease-in-out;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease-in-out;
+  }
+
+  .icon {
+    fill: #fff;
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+      fill: $yellow-color-effect;
+    }
+  }
+
+  form .icon {
+    fill: $primer-background;
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+      fill: $yellow-color-effect;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+}

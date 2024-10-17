@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $primer-text-color;
+  background-color: $primer-background;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: all 250ms ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primer-text-color;
+  margin: 0;
+  padding: 0;
+  transition: all 250ms ease-in-out;
+}
+
+p {
+  color: $primer-text-color;
+  margin: 0;
+  padding: 0;
+  transition: all 250ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: $primer-text-color;
+  transition: all 250ms ease-in-out;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: all 250ms ease-in-out;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}

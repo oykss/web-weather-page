@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { renderWeatherNow } from './render-functions';
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = '9859d117ed95573d4fc4b41d3cfef105';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 // type
